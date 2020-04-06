@@ -1,5 +1,11 @@
 
 page.evaluate(function() {
+
+    var adsBlocks=document.getElementsByClassName('japm-ad');
+    for(var i=0, len=adsBlocks.length; i<len; i++)
+    {
+        adsBlocks[i].style["display"] = "none";
+    }
     
     var styles = {{ input.getBodyStyles()|json_encode(constant('JSON_FORCE_OBJECT')) }};
     
