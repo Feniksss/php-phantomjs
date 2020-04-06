@@ -26,3 +26,4 @@ Feature List
 *  Delay page rendering until page resources are fully loaded
 *  Execute PhantomJS with command line options
 *  Easily build and run custom PhantomJS scripts
+*  Removed ADs blocks for some sites
